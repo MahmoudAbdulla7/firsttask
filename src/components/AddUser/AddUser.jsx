@@ -45,7 +45,7 @@ export default function AddUser() {
     const url = "https://dummyapi.io/data/v1/user/create";
     const data =newContact
     axios.post(url, data, config)
-    .then(res => navigate("/task") )
+    .then(res => navigate("/firsttask") )
     .catch(err => {if (err.response.status==400) {
       return setError("400")
     }return console.log("err");
@@ -161,7 +161,7 @@ export default function AddUser() {
             <div className="control d-flex justify-content-between p-4">
               <div className="cancel">
                 <Link
-                  to="/task"
+                  to="/firsttask"
                   className="btn btn-dark text-light px-5 rounded-5 fs-6"
                 >
                   Cancel

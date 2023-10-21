@@ -5,7 +5,7 @@ import AddUser from './components/AddUser/AddUser';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 const router =createBrowserRouter([{
-  path:"/task",element:<Layout/>,children:[
+  path:"/firsttask",element:<Layout/>,children:[
     {index:true,element:<Contacts/>},
     {path:"adduser",element:<AddUser/>},
   ]

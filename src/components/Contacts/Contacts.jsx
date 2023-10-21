@@ -56,7 +56,7 @@ export default function Contacts() {
             <div className="addContact d-flex justify-content-end">
               <Link
                 className="my-5 p-2 rounded-5 btn btn-info text-light"
-                to="/task/adduser"
+                to="/firsttask/adduser"
               >
                 <i className="fa-solid fa-plus me-2"></i>
                 Add new contact
