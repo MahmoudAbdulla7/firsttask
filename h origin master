@@ -1,0 +1,23 @@
+[33mcommit e8e256d40f3d5f2ad63d80c8cf84153ded5e7e17[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: MahmoudAbdalla7 <mahmoudapdallah629@gmail.com>
+Date:   Sat Oct 21 17:57:55 2023 +0300
+
+    fixed
+
+[33mcommit 54ef2e7f5778c9ecd99360fb4d3ab0a5669532bf[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: MahmoudAbdalla7 <mahmoudapdallah629@gmail.com>
+Date:   Sat Oct 21 16:22:56 2023 +0300
+
+    sec commit
+
+[33mcommit 412439fce3442d54ed64a2b0486629aeb57ad694[m
+Author: MahmoudAbdalla7 <mahmoudapdallah629@gmail.com>
+Date:   Sat Oct 21 16:10:48 2023 +0300
+
+    initial commit
+
+[33mcommit 6e7c662c461ebc1898323763764ce3b3c4763000[m
+Author: MahmoudAbdalla7 <mahmoudapdallah629@gmail.com>
+Date:   Fri Oct 20 16:58:15 2023 +0300
+
+    Initialize project using Create React App
