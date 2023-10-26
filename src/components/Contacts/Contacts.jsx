@@ -63,7 +63,7 @@ export default function Contacts() {
               </Link>
             </div>
             <div className="displayContacts container">
-              {searchResult?.length?(searchContacts.map((contact, index) => (<DisplayContact key={index} contact={contact} />))):currentContacts?.map((contact, index) => (<DisplayContact key={index} contact={contact} />))||<Loading/>}
+              {searchResult?.length?(searchContacts.map((contact, index) => (<DisplayContact key={index} contact={contact} />))):!currentContacts?<Loading/>:currentContacts.map((contact, index) => (<DisplayContact key={index} contact={contact} />))}
             </div>
           </div>
           <div className="paginate d-flex justify-content-end">
